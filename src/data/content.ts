@@ -22,8 +22,8 @@ export const heroContent = {
   description:
     "I build exceptional digital experiences with modern technologies. Passionate about creating clean, efficient, and user-friendly applications.",
   cta: {
-    primary: { label: "View My Work", href: "/portfolio/projects" },
-    secondary: { label: "Get In Touch", href: "/portfolio/contact" },
+    primary: { label: "View My Work", href: "/projects" },
+    secondary: { label: "Get In Touch", href: "/contact" },
   },
 };
 
@@ -150,7 +150,7 @@ export const aboutContent = {
     description:
       "Whether you need a developer, a problem solver, or just someone who can figure things out — I'm your person.",
     buttonText: "Get in Touch",
-    href: "/portfolio/contact",
+    href: "/contact",
   },
 };
 
@@ -226,8 +226,8 @@ export const footerContent = {
 };
 
 export const navLinks = [
-  { href: "/portfolio", label: "Home" },
-  { href: "/portfolio/about", label: "About" },
-  { href: "/portfolio/projects", label: "Projects" },
-  { href: "/portfolio/contact", label: "Contact" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/projects", label: "Projects" },
+  { href: "/contact", label: "Contact" },
 ];
